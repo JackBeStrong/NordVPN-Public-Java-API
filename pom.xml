@@ -11,12 +11,12 @@
 
 	<properties>
 		<!-- Dependency versions -->
-		<junit.jupiter.version>5.6.0</junit.jupiter.version>
+		<junit.jupiter.version>5.9.2</junit.jupiter.version>
 		<maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
 
 		<!-- Java 8 -->
-		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 
 		<!-- Encoding -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -35,7 +35,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.12</version>
+			<version>1.18.26</version>
 			<scope>provided</scope>
 		</dependency>
 

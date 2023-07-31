@@ -13,7 +13,7 @@ import com.yferhaoui.nordvpnc_public_api.Example;
 
 @TestInstance(Lifecycle.PER_CLASS)
 @TestMethodOrder(OrderAnnotation.class)
-public final class ExempleTest {
+public final class ExampleTest {
 
 	@Test
 	@Order(1) // Check getProxy
